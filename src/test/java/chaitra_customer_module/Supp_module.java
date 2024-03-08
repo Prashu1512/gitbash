@@ -3,7 +3,7 @@ package chaitra_customer_module;
 import org.testng.annotations.Test;
 
 public class Supp_module {
-	@Test(groups="smokesuite")
+	@Test(groups="Supp smoke")
 	public void samplescript_3()
 	{
 		System.out.println("-----test script 3-----");
@@ -12,6 +12,6 @@ public class Supp_module {
 	@Test(groups={"smokesuite","regressionsuite"})
 	public void samplescript_4()
 	{
-		System.out.println("-----test script 4-----");
+		System.out.println("-----Supp smoke and regression-----");
 	}
 }
