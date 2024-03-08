@@ -2,16 +2,16 @@ package chaitra_customer_module;
 
 import org.testng.annotations.Test;
 
-public class Module1_Test {
-	@Test(groups="smokesuite")
+public class Supp_module {
+	@Test(groups="Supp smoke")
 	public void samplescript_3()
 	{
-		System.out.println("----MOdule Smoke-----");
+		System.out.println("-----test script 3-----");
 	}
 	
 	@Test(groups={"smokesuite","regressionsuite"})
 	public void samplescript_4()
 	{
-		System.out.println("-----Module reg and smoke-----");
+		System.out.println("-----Supp smoke and regression-----");
 	}
 }

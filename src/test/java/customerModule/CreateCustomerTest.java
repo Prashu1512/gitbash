@@ -4,9 +4,9 @@ import org.testng.annotations.Test;
 
 public class CreateCustomerTest
 {
-	@Test
+	@Test(groups = "regressionsuite")
 	public void createCustomerTest()
 	{
-		System.out.println("-----hi----");
+		System.out.println("-----Regression----");
 	}
 }
