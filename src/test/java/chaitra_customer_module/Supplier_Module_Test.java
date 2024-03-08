@@ -4,8 +4,6 @@ import org.testng.annotations.Test;
 
 public class Supplier_Module_Test {
 	@Test(groups="smokesuite")
-	public void samplescript_3()
-	{
 
 	public void samplescript_4()
 	{
